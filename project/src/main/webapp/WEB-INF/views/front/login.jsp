@@ -36,7 +36,6 @@
 <div class="main" style="margin-top: 0">
 <form method="post">
 <div class="page"><!-- 메인 화면, 로그인 폼을 만들고  -->
-		<div class="login_form">
             <div class="box_login">
                  <h2>로그인</h2>
                  <br>
@@ -66,7 +65,6 @@
                 </span>
             </div>
 
-		</div>
 </div>
 </form>
 	<div class="clear"></div>

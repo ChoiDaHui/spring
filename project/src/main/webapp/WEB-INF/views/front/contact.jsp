@@ -32,7 +32,7 @@
 </div>
 <div class="header-left">
 <div class="main" style="margin-top: 0">
-<div class="section group">				
+<div class="section group">				<!-- 문의 게시판 -->
 				<div class="col span_1_of_2">
 					<div class="contact_info">
 			    	 	<h3>Find Us Here</h3>

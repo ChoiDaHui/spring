@@ -86,20 +86,20 @@ public class BoardController {
 		
 	}
 	
-	@PreAuthorize("isAuthenticated()")
-	//@GetMapping("/Writes") 오류발생 나중에 다시 처리 교수님께 물어볼것
-	@RequestMapping(value="/Writes", method= {RequestMethod.POST, RequestMethod.GET})
-	public String writes(Board_listVO board_list, RedirectAttributes rttr) throws Exception{
-		//System.out.println("생성된 글 : " +board_list);
-		//return "/front/board_list";
-		log.info("register: " + board_list);
-
-		service_list.register(board_list);
-
-		rttr.addFlashAttribute("result", board_list.getNum());
-	
-		return "redirect:/front/board_list";
-	}
+//	@PreAuthorize("isAuthenticated()")
+//	//@GetMapping("/Writes") 오류발생 나중에 다시 처리 교수님께 물어볼것
+//	@RequestMapping(value="/Writes", method= {RequestMethod.POST, RequestMethod.GET})
+//	public String writes(/*Board_listVO board_list, RedirectAttributes rttr*/){
+//		//System.out.println("생성된 글 : " +board_list);
+//		//return "/front/board_list";
+//		log.info("register: " + board_list);
+//
+//		service_list.register(board_list);
+//
+//		rttr.addFlashAttribute("result", board_list.getNum());
+//	
+//		return "redirect:/front/board_list";
+//	}
 	
 	//글 삭제
 	@PostMapping("/remove")

@@ -35,8 +35,7 @@
 <div class="header-left">
 <div class="main" style="margin-top: 0">
 
-<div class="page"><!-- 메인 화면, 로그인 폼을 만들고  -->
-		<div class="login_form" >
+<div class="page"><!-- 회원가입 폼 -->
             <div class="box_login">
                  <h2>회원가입</h2>
                  <br>
@@ -77,7 +76,6 @@
             <br>
                 </div>
                 <br>
-            </div>
 
 		</div>
 </div>
